@@ -1,0 +1,86 @@
+
+#wb_header { height: 355px; }
+#wb_header > .wb_cont_bg { background-color: transparent; }
+#wb_header > .wb_cont_bg:before { background: transparent none repeat scroll left top; }
+#wb_main { height: 1278px; padding-bottom: 80px; }
+#wb_main > .wb_cont_bg { background-color: transparent; }
+#wb_main > .wb_cont_bg:before { background: transparent none repeat scroll left top; }
+#wb_footer { height: 150px; }
+#wb_footer > .wb_cont_bg { background-color: transparent; }
+#wb_footer > .wb_cont_bg:before { background: transparent none repeat-x scroll left top; }
+html { scroll-behavior: smooth; }
+body { background-color: #faf8f5; }
+body.site:before { background: transparent url("https://ushakovchurch.ru/css/gallery/angel-ts1475673782.jpg") repeat-x scroll center top; }
+.wb_sbg { background: transparent none repeat-x scroll left top; }
+body, .wb_sbg { min-width: 1200px; min-height: 1783px; }
+.wb_cont_inner { width: 1200px; }
+.wb_cont_bg { width: 1200px; margin-left: -600px; }
+.root { height: 1783px; min-height: 1783px; }
+#wb_element_instance303 { top: 110px; left: 0px; min-width: 1200px; width: 1200px; min-height: 20px; height: 20px; display: block; z-index: 662; }
+#wb_element_instance304 { top: 312px; left: 0px; min-width: 1200px; width: 1200px; min-height: 43px; height: 43px; display: block; z-index: 951; }
+#wb_element_instance304 > ul { display: block; }
+#wb_element_instance304 ul { background: #38a1cf none repeat right top; border: 1px none #000000; }
+#wb_element_instance304, #wb_element_instance304 ul { text-align: center; }
+#wb_element_instance304 ul ul { background: #ffffff none repeat right top; }
+#wb_element_instance304 li { margin: 0px 15px 0px 15px; }
+#wb_element_instance304 li a { text-transform: uppercase; border: 0px none #000000; padding: 10px 15px 15px 15px; font: normal normal 16px Trebuchet MS,sans-serif; text-decoration: none; color: #000000; line-height: 18px; background: transparent none repeat-x center bottom; }
+#wb_element_instance304 li.over > a, #wb_element_instance304 li:focus > a { border: 0px none #000000; font: normal normal 16px Trebuchet MS,sans-serif; text-decoration: none; color: #bd1c34; line-height: 18px; background: transparent none repeat-x center bottom; }
+#wb_element_instance304 li.active > a { border: 0px none #000000; font: normal normal 16px Trebuchet MS,sans-serif; text-decoration: none; color: #bd1c34; line-height: 18px; background: transparent none repeat-x center bottom; }
+#wb_element_instance304:not(.collapse-expanded) .vmenu ul.open-left,#wb_element_instance304:not(.collapse-expanded) .hmenu ul.open-left { left: auto; right: 100%; }
+#wb_element_instance304:not(.collapse-expanded) .hmenu > li > ul.open-left { left: auto; right: 0; }
+#wb_element_instance305 { top: 0px; left: 0px; min-width: 1200px; width: 1200px; min-height: 312px; height: 312px; display: block; z-index: 756; overflow: hidden; }
+#wb_element_instance305 img { width: 1240.2px; height: 312px; display: block; position: relative; left: 0px; top: 0px; max-width: inherit; }
+#wb_element_instance306 { top: 80px; left: 969px; min-width: 200px; width: 200px; min-height: 24px; height: 24px; display: block; z-index: 671; }
+#wb_element_instance307 { top: 20px; left: 30px; min-width: 110px; width: 110px; min-height: 110px; height: 110px; display: block; z-index: 626; }
+#wb_element_instance307 img { width: 110px; height: 110px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance308 { top: 20px; left: 910px; min-width: 40px; width: 40px; min-height: 120px; height: 120px; display: block; z-index: 759; }
+#wb_element_instance309 { top: 20px; left: 150px; min-width: 30px; width: 30px; min-height: 120px; height: 120px; display: block; z-index: 669; }
+#wb_element_instance310 { top: 26px; left: 250px; min-width: 430px; width: 430px; min-height: 26px; height: 26px; display: block; z-index: 752; }
+#wb_element_instance311 { top: 20px; left: 180px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; z-index: 754; }
+#wb_element_instance311 img { width: 32px; height: 32px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance312 { top: 59px; left: 180px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; z-index: 756; }
+#wb_element_instance312 img { width: 32px; height: 32px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance313 { top: 66px; left: 250px; min-width: 400px; width: 400px; min-height: 25px; height: 25px; display: block; z-index: 755; }
+#wb_element_instance314 { top: 99px; left: 180px; min-width: 32px; width: 32px; min-height: 32px; height: 32px; display: block; z-index: 758; }
+#wb_element_instance314 img { width: 32px; height: 32px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance315 { top: 106px; left: 250px; min-width: 400px; width: 400px; min-height: 25px; height: 25px; display: block; z-index: 757; }
+#wb_element_instance316 { top: 0px; left: 0px; min-width: 1200px; width: 1200px; min-height: 1px; height: 1px; display: block; z-index: 645; }
+#wb_element_instance317 { top: 960px; left: 960px; min-width: 230px; width: 230px; min-height: 10px; height: 10px; display: block; z-index: 321; }
+#wb_element_instance317 > .wb_shp:before { background: transparent none repeat scroll left top; background-size: auto auto; opacity: 1; }
+#wb_element_instance317 > .wb_shp { background-color: rgba(250, 248, 245, 1); border: 0px solid #C0C0C0; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; width: 230px; height: 10px; }
+#wb_element_instance318 { top: 0px; left: 220px; min-width: 794px; width: 794px; min-height: 421px; height: 421px; display: block; z-index: 322; }
+#wb_element_instance318 img { width: 794px; height: 421px; display: block; position: static; left: 0px; top: 0px; }
+#wb_element_instance319 { top: 430px; left: 20px; min-width: 1160px; width: 1160px; min-height: 768px; height: 768px; display: block; z-index: 323; }
+#wb_element_instance320 { top: 160px; left: 0px; display: block; z-index: 9999; }
+
+
+#wb_element_instance303 > .wb-elm-line { margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 1px solid #ebdfd6;; }
+#wb_element_instance305 { opacity: 1; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; border: 5px none #d1d1d1; box-sizing: border-box; overflow: hidden; }
+#wb_element_instance306 p:last-child { margin-bottom: 0; }
+#wb_element_instance306 { opacity: 1; }
+#wb_element_instance307 { opacity: 1; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; border: 1px none #000000; box-sizing: border-box; overflow: hidden; }
+#wb_element_instance308 > .wb-elm-line { margin: 0 0 0 1px; width: 1px; height: 100%; left: 50%; top: 0; border-left: 1px solid #ebdfd6;; }
+#wb_element_instance309 > .wb-elm-line { margin: 0 0 0 1px; width: 1px; height: 100%; left: 50%; top: 0; border-left: 1px solid #ebdfd6;; }
+#wb_element_instance310 p:last-child { margin-bottom: 0; }
+#wb_element_instance310 { opacity: 1; }
+#wb_element_instance311 { opacity: 1; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 1px none #000000; box-sizing: border-box; overflow: hidden; }
+#wb_element_instance312 { opacity: 1; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 1px none #000000; box-sizing: border-box; overflow: hidden; }
+#wb_element_instance313 p:last-child { margin-bottom: 0; }
+#wb_element_instance313 { opacity: 1; }
+#wb_element_instance314 { opacity: 1; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border: 1px none #000000; box-sizing: border-box; overflow: hidden; }
+#wb_element_instance315 p:last-child { margin-bottom: 0; }
+#wb_element_instance315 { opacity: 1; }
+#wb_element_instance316 > .wb-elm-line { margin: 1px 0 0 0; width: 100%; height: 1px; left: 0; top: 50%; border-top: 2px solid #d92b45;; }
+#wb_element_instance318 { opacity: 1; border-radius: 0px 0px 0px 0px; -moz-border-radius: 0px 0px 0px 0px; -webkit-border-radius: 0px 0px 0px 0px; border: 5px none #d1d1d1; box-sizing: border-box; overflow: hidden; }
+#wb_element_instance319 p:last-child { margin-bottom: 0; }
+#wb_element_instance319 { opacity: 1; }
+
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (max-width: 767px) {
+}
