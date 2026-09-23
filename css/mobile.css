@@ -1,0 +1,325 @@
+/*
+  Phone and tablet layout for the fixed 1200px Website Builder pages.
+  Applies only below 1024px. Wider viewports keep the original stylesheet.
+*/
+
+@media (max-width: 1023px) {
+	html,
+	body {
+		overflow-x: hidden;
+		max-width: 100%;
+	}
+
+	body,
+	body.site,
+	.wb_sbg,
+	.root,
+	#wb_header,
+	#wb_main,
+	#wb_footer {
+		width: auto !important;
+		min-width: 0 !important;
+		height: auto !important;
+		min-height: 0 !important;
+	}
+
+	.wb_cont_inner,
+	.wb_cont_bg {
+		width: 100% !important;
+		max-width: 100% !important;
+		height: auto !important;
+		min-height: 0 !important;
+		margin-left: 0 !important;
+		left: 0 !important;
+		box-sizing: border-box;
+	}
+
+	.wb_cont_bg {
+		position: absolute;
+	}
+
+	#wb_header .wb_cont_inner,
+	#wb_main .wb_cont_inner,
+	#wb_footer .wb_cont_inner {
+		display: flex !important;
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.wb_element {
+		position: relative !important;
+		top: auto !important;
+		left: auto !important;
+		right: auto !important;
+		min-width: 0 !important;
+		min-height: 0 !important;
+		max-width: 100% !important;
+		box-sizing: border-box;
+	}
+
+	/* Header: banner, quiet rule, then navigation. */
+	#wb_header .wb_element_picture {
+		order: 1;
+		width: 100% !important;
+		height: auto !important;
+		overflow: hidden;
+	}
+
+	#wb_header .wb_element_picture img {
+		width: 100% !important;
+		height: auto !important;
+		max-width: 100% !important;
+		position: static !important;
+		left: auto !important;
+		top: auto !important;
+	}
+
+	#wb_header .wb-elm-orient-horizontal {
+		order: 2;
+		width: 100% !important;
+		height: 16px !important;
+	}
+
+	#wb_header .wb-menu {
+		order: 3;
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	.wb-mobile-toggle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		width: 100%;
+		margin: 0;
+		padding: 14px 16px;
+		border: 0;
+		background: #38a1cf;
+		color: #000000;
+		font: normal 16px "Trebuchet MS", sans-serif;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+	.wb-mobile-toggle-bars {
+		display: inline-block;
+		width: 18px;
+	}
+
+	.wb-mobile-toggle-bars span {
+		display: block;
+		width: 18px;
+		height: 2px;
+		margin: 4px 0;
+		background: #000000;
+	}
+
+	.wb-menu.wb-mobile-open .wb-mobile-toggle {
+		color: #bd1c34;
+	}
+
+	#wb_header .wb-menu > ul.hmenu {
+		display: block !important;
+		float: none !important;
+		width: 100% !important;
+		height: auto !important;
+		margin: 0;
+		white-space: normal;
+	}
+
+	#wb_header .wb-menu > .wb-mobile-toggle + ul.hmenu {
+		display: none !important;
+	}
+
+	#wb_header .wb-menu.wb-mobile-open > ul.hmenu {
+		display: block !important;
+	}
+
+	#wb_header .hmenu li {
+		display: block !important;
+		float: none !important;
+		width: 100% !important;
+		margin: 0 !important;
+	}
+
+	#wb_header .hmenu li a {
+		white-space: normal !important;
+		max-width: none !important;
+		overflow: visible !important;
+		text-overflow: clip !important;
+		padding: 14px 16px !important;
+	}
+
+	#wb_header .hmenu ul {
+		display: block !important;
+		position: static !important;
+		float: none !important;
+		width: 100% !important;
+		left: auto !important;
+		right: auto !important;
+		top: auto !important;
+		background: #ffffff !important;
+	}
+
+	#wb_header .hmenu ul a {
+		padding-left: 28px !important;
+		text-transform: none;
+	}
+
+	/* Main column. Reading order is set by js/mobile.js from the desktop coordinates. */
+	#wb_main {
+		padding-bottom: 8px !important;
+	}
+
+	#wb_main .wb_cont_inner {
+		padding: 16px 16px 8px;
+	}
+
+	#wb_main .wb_element {
+		height: auto !important;
+		margin: 0 0 14px;
+	}
+
+	#wb_main .wb_text_element {
+		width: 100% !important;
+		max-width: 100% !important;
+		overflow-wrap: anywhere;
+		word-wrap: break-word;
+	}
+
+	#wb_main .wb-stl-custom5 {
+		font-size: 24px !important;
+		line-height: 30px !important;
+	}
+
+	#wb_main .wb_element_picture {
+		width: auto !important;
+		height: auto !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#wb_main .wb_element_picture img {
+		max-width: 100% !important;
+		width: auto !important;
+		height: auto !important;
+	}
+
+	#wb_main .wb_gallery {
+		width: 100% !important;
+		min-width: 0 !important;
+		height: 92vw !important;
+		max-height: 480px !important;
+		margin: 4px 0 16px;
+	}
+
+	#wb_main .wb_element_shape {
+		width: 100% !important;
+		height: 10px !important;
+		margin: 0;
+	}
+
+	/* Footer contacts, same blocks, stacked. */
+	#wb_footer .wb_cont_inner {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		padding: 8px 16px 24px;
+	}
+
+	#wb_footer .wb_element {
+		height: auto !important;
+		position: relative !important;
+	}
+
+	#wb_footer .wb-elm-orient-horizontal {
+		order: 1;
+		flex: 1 0 100%;
+		width: 100% !important;
+		height: 12px !important;
+	}
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(2) {
+		order: 2;
+		flex: 1 0 100%;
+		width: 100% !important;
+		height: auto !important;
+		margin: 10px 0 14px;
+		text-align: center;
+	}
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(2) img {
+		width: 88px !important;
+		height: 88px !important;
+		max-width: 88px !important;
+	}
+
+	#wb_footer .wb-elm-orient-vertical {
+		order: 3;
+		flex: 1 0 100%;
+		width: 100% !important;
+		height: 12px !important;
+	}
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(6) { order: 10; }
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(5) { order: 11; }
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(7) { order: 12; }
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(8) { order: 13; }
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(9) { order: 14; }
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(10) { order: 15; }
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(1) { order: 16; }
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(6),
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(7),
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(9) {
+		flex: 0 0 32px;
+		width: 32px !important;
+		height: 32px !important;
+		margin: 8px 10px 8px 0;
+	}
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(6) img,
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(7) img,
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(9) img {
+		width: 32px !important;
+		height: 32px !important;
+		max-width: 32px !important;
+	}
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(5),
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(8),
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(10) {
+		flex: 1 0 calc(100% - 42px);
+		width: auto !important;
+		max-width: calc(100% - 42px) !important;
+		min-width: 0 !important;
+		margin: 8px 0;
+		overflow-wrap: anywhere;
+	}
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(1) {
+		flex: 1 0 100%;
+		width: 100% !important;
+		margin-top: 10px;
+		text-align: center !important;
+	}
+
+	#wb_footer .wb_cont_inner > .wb_element:nth-child(1) p {
+		text-align: center !important;
+	}
+
+	#wb_footer .wb_element[data-plugin=""] {
+		flex: 1 0 100%;
+		width: 100% !important;
+		height: auto !important;
+		order: 20;
+	}
+}
+
+@media (min-width: 1024px) {
+	.wb-mobile-toggle {
+		display: none !important;
+	}
+}
